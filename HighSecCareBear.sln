@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighSecCareBear.Web", "HighSecCareBear.Web\HighSecCareBear.Web.csproj", "{544E39F6-F842-4296-8EAB-AC4B0AE1382B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighSecCareBear.Web", "HighSecCareBear.Web\HighSecCareBear.Web.csproj", "{544E39F6-F842-4296-8EAB-AC4B0AE1382B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighSecCareBear.Domain", "HighSecCareBear.Domain\HighSecCareBear.Domain.csproj", "{7E02E763-7F16-424C-BD5E-D96C810A1DF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighSecCareBear.Domain", "HighSecCareBear.Domain\HighSecCareBear.Domain.csproj", "{7E02E763-7F16-424C-BD5E-D96C810A1DF3}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HighSecCareBear.Database", "HighSecCareBear.Database\HighSecCareBear.Database.sqlproj", "{117F5CD0-5215-45D8-BAD5-D1809BEDD2B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{7E02E763-7F16-424C-BD5E-D96C810A1DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E02E763-7F16-424C-BD5E-D96C810A1DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E02E763-7F16-424C-BD5E-D96C810A1DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117F5CD0-5215-45D8-BAD5-D1809BEDD2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117F5CD0-5215-45D8-BAD5-D1809BEDD2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117F5CD0-5215-45D8-BAD5-D1809BEDD2B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{117F5CD0-5215-45D8-BAD5-D1809BEDD2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117F5CD0-5215-45D8-BAD5-D1809BEDD2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117F5CD0-5215-45D8-BAD5-D1809BEDD2B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
