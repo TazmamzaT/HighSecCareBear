@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Ore].[Reprocessing]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT IDENTITY(1,1) PRIMARY KEY, 
     [OreId] INT NOT NULL, 
     [MineralId] INT NOT NULL, 
     [Yield100] INT NOT NULL, 
