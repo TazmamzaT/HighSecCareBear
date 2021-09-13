@@ -138,6 +138,7 @@
   <ItemGroup>
     <None Include="HighSecCareBear.Database.publish.xml" />
     <None Include="Imports\OreType.csv" />
+    <None Include="Imports\MineralType.csv" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
