@@ -123,13 +123,14 @@
     <Folder Include="Ore" />
     <Folder Include="Ore\Tables" />
     <Folder Include="Scripts" />
+    <Folder Include="Ore\Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Ore\OreSchema.sql" />
     <Build Include="Ore\Tables\OreInfo.sql" />
     <Build Include="Ore\Tables\MineralInfo.sql" />
     <Build Include="Ore\Tables\Reprocessing.sql" />
-    <None Include="Ore\Tables\PopulateOre.sql" />
+    <None Include="Ore\Scripts\PopulateOre.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="HighSecCareBear.Database.refactorlog" />
