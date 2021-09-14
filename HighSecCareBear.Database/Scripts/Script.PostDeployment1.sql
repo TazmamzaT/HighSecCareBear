@@ -12,5 +12,5 @@ Post-Deployment Script Template
 
 IF (NOT EXISTS(SELECT * FROM [Ore].[OreInfo]))  
 BEGIN  
-    :r ..\Imports\ImportOreTypes.sql
+    :r .\ImportOreTypes.sql
 END  
