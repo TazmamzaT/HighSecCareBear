@@ -1,5 +1,5 @@
 ﻿SET IDENTITY_INSERT [Ore].[OreInfo] ON
-INSERT INTO [Ore].[OreInfo]
+INSERT INTO [Ore].[OreInfo] (Id, Name, Volume, Modifier, TypeId)
 VALUES
 (0, 'Veldspar',0.1,0,1230),
 (1, 'Concentrated Veldspar',0.1,0.05,17470),
@@ -52,7 +52,8 @@ VALUES
 SET IDENTITY_INSERT [Ore].[OreInfo] OFF
 
 SET IDENTITY_INSERT [Ore].[MineralInfo] ON
-INSERT INTO [Ore].[MineralInfo] VALUES
+INSERT INTO [Ore].[MineralInfo] (Id, Name, Voume, TypeId)
+VALUES
 (0, 'Tritanium',0.01,34),
 (1, 'Pyerite',0.01,35),
 (2, 'Mexallon',0.01,36),
@@ -64,7 +65,8 @@ INSERT INTO [Ore].[MineralInfo] VALUES
 
 SET IDENTITY_INSERT [Ore].[MineralInfo] OFF
 
-INSERT INTO [Ore].[Reprocessing] VALUES
+INSERT INTO [Ore].[Reprocessing] (OreId, MineralId, Yield100)
+VALUES
 (0, 0, 400),
 (1, 0, 420),
 (2, 0, 440),
